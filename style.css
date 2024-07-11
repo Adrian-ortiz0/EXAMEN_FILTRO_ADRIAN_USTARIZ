@@ -1,0 +1,382 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    background-color: #1e1d2b;
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+}
+
+header{
+    display: flex;
+    width: 100%;
+    height: 6vh;
+}
+
+#my-h1-header{
+    color: orange;
+}
+
+.my-nav{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+.header-buttons{
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    border: none;
+    width: 80px;
+    height: 30px;
+}
+
+.header-buttons:hover{
+    border: 1px solid;
+    border-color: lightblue;    
+
+}
+
+.a-containers{
+    width: 30%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+main{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #1e1d2b;
+    width: 100%;
+    height: 50vh;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+#my-mainh4{
+    color: white;
+}
+
+.info-main{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+}
+
+.main-button{
+    background-color: orange;
+    border: none;
+    color: white;
+    width: 180px;
+    height: 35px;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    
+}
+
+#una{
+    width: 23%;
+}
+
+#my-h1-main{
+    font-size: 70px;
+    color: orange;
+}
+
+#my-h2-main{
+    color: white;
+}
+
+#about-us{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    background-color: #1e1d2b;
+    width: 100%;
+    height: 70vh;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.image-about{
+    display: flex;
+    width: 40%;
+    align-items: center;
+    justify-content: center;
+}
+
+.info-aboutus{
+    display: flex;
+    width: 40%;
+    flex-direction: column;
+    
+}
+
+.image-about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#food-menu{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    background-color: #1e1d2b;
+    width: 100%;
+    height: 80vh;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.info-menu{
+    text-align: center;
+}
+
+.cont__image-menu{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+    height: 100%;
+    place-items: center;
+    place-content: center;
+    text-align: center;
+    gap: 10px;
+}
+
+.image-info__menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ffefe8;
+    width: 70%;
+    height: 40vh;
+}
+
+#services{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    background-color: #1e1d2b;
+    width: 100%;
+    height: 80vh;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.info-services{
+    text-align: center;
+}
+
+.cont__image-services{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 80%;
+    place-items: center;
+    place-content: center;
+    text-align: center;
+    gap: 10px;
+}
+
+p{
+    color: white;
+}
+
+#my-h4s{
+    color: orange;
+    font-size: 30px;
+}
+
+#my-h5s{
+    color: orange;
+}
+
+#my-h2s{
+    color: white;
+    font-size: 50px;
+}
+
+.image-info__services{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#sponsor{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #1e1d2b;
+    width: 100%;
+    height: 50vh;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+#sponsor__container{
+    display: flex;
+    flex-direction: column;
+    background-color: #ffefe8;
+    width: 80%;
+    height: 70%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+footer{
+    display: flex;
+    width: 100%;
+    background-color: #1e1d2b;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.cont__info-footer{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 80%;
+    place-items: center;
+    place-content: center;
+
+}
+
+.cont__info-footer a {
+    text-decoration: none;
+    color: white;
+}
+
+.bxs-circle{
+    color: orange;
+}
+
+li{
+    list-style: none;
+}
+
+#learn-more{
+    background-color: orange;
+    color: white;
+    height: 40px;
+    border: none;
+}
+
+#my-new-h2{
+    font-size: 45px;
+}
+
+.cont__footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#icono{
+    display: none;
+}
+
+@media (max-width: 743px) {
+    *{
+        margin: 0px;
+    }
+    .my-nav{
+        display: flex;
+    }
+    .a-containers{
+        display: none;
+
+        
+    }
+    #icono{
+        display: block;
+        color: white;
+        width: 40px;
+        font-size: 40px;
+        cursor: pointer;
+    }
+
+    main{
+        display: flex;
+        flex-direction: column;
+        height: 90vh;
+        margin: 0px;
+    }
+
+    .info-main{
+        align-items: start;
+        justify-content: space-evenly;
+    }
+
+    #my-h1-main{
+        font-size: 50px;
+    }
+    .info-main{
+        text-align: center;
+    }
+
+    #img1{
+        width: 200px;
+    }
+
+    .image-main{
+        display: flex;
+        width: 220px;
+    }
+
+    #about-us{
+        display: flex;
+        flex-direction: column;
+        height: 60vh;
+        margin: 0px;
+    }
+    .info-aboutus{
+        text-align: center;
+    }
+    #my-h2s{
+        font-size: 20px;
+    }
+
+    #image2{
+        width: 200px;
+    }
+
+    #food-menu{
+        height: 170vh;
+    }
+
+    .cont__image-menu{
+        display: grid;
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-columns: 1fr;
+    }
+
+    #services{
+        height: 80vh;
+    }
+    .cont__image-services{
+        display: grid;
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-columns: 1fr;
+    }
+
+    footer{
+        height: 80vh;
+    }
+    .cont__info-footer{
+        display: grid;
+        grid-template-rows: repeat(4, 1fr);
+        grid-template-columns: 1fr;
+    }
+    .cont__footer{
+        display: flex;
+        align-items: start;
+        width: 100%;
+    }
+
+}
