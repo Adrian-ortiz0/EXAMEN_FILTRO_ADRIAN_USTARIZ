@@ -61,23 +61,23 @@ Aquí se pueden incluir capturas de pantalla del diseño de la página:
 
 ### Pantalla de Inicio
 
-![Pantalla de Inicio](ruta/a/tu/imagen_inicio.png)
+![Pantalla de Inicio](/images/img/1.png)
 
-### Menú Principal
+### Acerca de
 
-![Menú Principal](ruta/a/tu/imagen_menu_principal.png)
+![Menú Principal](/images/img/2.png)
 
 ### Menú de Comida
 
-![Menú de Comida](ruta/a/tu/imagen_menu_comida.png)
+![Menú de Comida](/images/img/3.png)
 
 ### Servicios
 
-![Servicios](ruta/a/tu/imagen_servicios.png)
+![Servicios](/images/img/4.png)
 
 ### Footer
 
-![Footer](ruta/a/tu/imagen_footer.png)
+![Footer](/images/img/5.png)
 
 ## Uso
 
@@ -86,6 +86,7 @@ Para ver la página web en acción:
 1. Guarda el código HTML en un archivo llamado `index.html`.
 2. Asegúrate de tener un archivo `style.css` en el mismo directorio para aplicar los estilos.
 3. Abre `index.html` en un navegador web para ver el resultado.
+4. Tener cuidado con no olvidarse de cargar tambien las imagenes.
 
 ## Notas
 
